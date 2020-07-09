@@ -6,7 +6,14 @@
     <Compile Include="App.fs" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Fable.Browser.XMLHttpRequest" Version="1.1.0" />
+    <PackageReference Include="Fable.DateFunctions" Version="3.0.1" />
+    <PackageReference Include="Fable.Elmish.Browser" Version="3.0.4" />
+    <PackageReference Include="Fable.Elmish.Debugger" Version="3.2.0" />
+    <PackageReference Include="Fable.Elmish.HMR" Version="4.0.1" />
     <PackageReference Include="Fable.Elmish.React" Version="3.0.1" />
+    <PackageReference Include="Fable.SimpleHttp" Version="3.0.0" />
     <PackageReference Include="Feliz" Version="0.68.10" />
+    <PackageReference Include="Thoth.Json" Version="4.1.0" />
   </ItemGroup>
 </Project>
